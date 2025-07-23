@@ -23,9 +23,9 @@ while True:
     print(choice_name,"vs", comp_name) 
     if choice_name==comp_name:
      result="DRAW"
-    elif (choice_name==1 and comp_name==2) or ( comp_name==1 and choice_name==2) :
+    elif (choice_name=='Rock' and comp_name=='Paper') or ( comp_name=='Rock' and choice_name=='Paper') :
      result='Paper'
-    elif (choice_name==2 and comp_name==3) or ( comp_name==2 and choice_name==3) :
+    elif (choice_name=='Paper' and comp_name=='Scissors') or ( comp_name=='Paper' and choice_name=='Scissors') :
      result='Scissors'
     else :  
          result='Rock'
